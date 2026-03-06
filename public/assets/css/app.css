@@ -1,0 +1,15 @@
+:root { --bg:#f7f8fb; --text:#1f2937; --card:#ffffff; }
+[data-theme='dark'] { --bg:#0b1220; --text:#e5e7eb; --card:#111827; }
+body { margin:0; font-family:Inter,Arial,sans-serif; background:var(--bg); color:var(--text); }
+.container { width:min(1100px, 92%); margin:0 auto; }
+.nav { display:flex; justify-content:space-between; align-items:center; padding:1rem 0; }
+.nav a { margin-right:1rem; text-decoration:none; color:var(--text); }
+.hero { padding:3rem 0; }
+.dropzone { border:2px dashed #94a3b8; border-radius:12px; padding:2rem; text-align:center; background:var(--card); }
+.grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); }
+.card { background:var(--card); padding:1rem; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,.08); }
+.progress { height:10px; background:#e5e7eb; border-radius:999px; margin:.8rem 0; }
+#progressBar { width:0; height:100%; background:#3b82f6; border-radius:999px; }
+.hidden { display:none; }
+input, textarea, button { width:100%; margin:.4rem 0; padding:.7rem; border-radius:8px; border:1px solid #cbd5e1; }
+@media (max-width: 640px){ .nav { flex-direction:column; gap:.8rem; } }

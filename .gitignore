@@ -1,0 +1,10 @@
+/vendor/
+/.env
+/storage/app/uploads/*
+/storage/app/converted/*
+/storage/app/tmp/*
+/storage/app/logs/*
+!/storage/app/uploads/.gitkeep
+!/storage/app/converted/.gitkeep
+!/storage/app/tmp/.gitkeep
+!/storage/app/logs/.gitkeep
